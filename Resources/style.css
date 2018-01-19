@@ -1,0 +1,355 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.header .lbox {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 24px;
+  height: 32px;
+}
+
+.header .rbox {
+  display: inline-flex;
+  margin-right: 24px;
+  justify-content: space-around;
+  font-size: 21px;
+  color: dimgray;
+}
+
+.header .rbox p {
+  margin-right: 9px;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  background-color: cornflowerblue;
+  align-items: center;
+}
+
+.banner .lbox {
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  margin: 32px 24px;
+}
+
+.banner .img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner .rbox {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.banner .rbox h1 {
+  font-size: 3.3rem;
+}
+
+.banner .rbox h2 {
+  font-size: 1.8rem;
+}
+
+.banner .rbox p {
+  background-color: black;
+  padding: 8px 25px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Information */
+.information {
+  display: flex;
+}
+
+.information .lbox {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100;
+  overflow: hidden;
+  margin: 32px 24px;
+}
+
+.information .lbox img {
+  max-width: 100%;
+  height: 50%;
+}
+
+.information .testimony {
+  margin-top: 32px;
+  justify-content: space-between;
+}
+
+.information .testimony h1 {
+  color: black;
+  font-size: 2.9rem;
+}
+
+.information .testimony h4 {
+  color: darkgray;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.information .testimony p {
+  color: dimgray;
+  font-size: 1.1rem;
+}
+
+.information .rbox {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 32px 0px 32px 0px;
+  padding-left: 14px;
+  border-left: 1px solid darkgray;
+}
+
+.information .fstbox, .information .sndbox, .information .trdbox  {
+  display: inline-flex;
+}
+
+.information .fstbox {
+  padding-bottom: 9px;
+  border-bottom: 2.5px solid darkgray;
+}
+
+.information .sndbox {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.information .trdbox {
+  background-color: azure;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.information .box .image {
+  width: 35%;
+  height: auto;
+  overflow:hidden;
+}
+
+.information .image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.information .infobox {
+  width: 68%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 12px;
+}
+
+.information .infobox h2{
+  color: black;
+  font-size: 1.7rem;
+}
+
+.information .infobox h3{
+  color: darkgray;
+  font-size: 1.2rem;
+}
+
+.information .infobox h4{
+  color: dodgerblue;
+  font-size: 1.4rem;
+}
+
+/* Courses */
+
+.coursesmain {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 72px;
+  justify-content: center;
+}
+
+.coursesmain h1 {
+  text-align: center;
+  color: black;
+  font-size: 2.9rem;
+}
+
+.coursesmain .courses {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  width:100%;
+}
+
+.coursesmain .lbox, .coursesmain .mbox, .coursesmain .rbox {
+  display:flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.courses .coursebox {
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  overflow:hidden;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.courses .coursebox img {
+  max-width: 100%;
+  height: 50%;
+}
+
+.courses .coursebox h2 {
+  color: black;
+}
+
+.courses .coursebox h3 {
+  color: darkgray;
+}
+
+.courses .coursebox h2, .courses .coursebox h3 {
+  margin-left: 16px;
+}
+
+/* Exhibit  */
+
+.exhibitmain {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 5px 32px 24px;
+  border-bottom: 2.5px solid darkgray;
+}
+
+.exhibitmain h1 {
+  text-align: center;
+  color: black;
+  font-size: 2.9rem;
+}
+
+.exhibit {
+  display: flex;
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  align-items: flex-start;
+}
+
+.exhibit .lbox {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+  margin-right: 24px;
+}
+
+.exhibit .lbox video {
+  max-width: 100%;
+  height: auto;
+}
+
+.exhibit .lbox h2 {
+  color: black;
+  font-size: 2.9rem;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.exhibit .lbox h4 {
+  color: darkgray;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.exhibit .rbox {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.exhibit .topbox {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background-color: azure;
+  padding: 16px 0px 16px 16px;
+}
+
+.exhibit .bottombox {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  padding: 16px 0px 16px 16px;
+}
+
+.exhibit .boximage {
+  width: 35%;
+  height: auto;
+  overflow: hidden;
+}
+
+.exhibit .rbox img {
+  max-width: 100%;
+  height: auto;
+}
+
+.exhibit .rbox .boxtext, #top .boxtext {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 100%;
+  margin-left: 16px;
+}
+
+.exhibit .boxtext h2, #top {
+  color: black;
+}
+
+.exhibit .boxtext p, #top {
+  color: darkgray;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: darkgray
+}
+
+.footer .lbox {
+  display: inline-flex;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+.footer .rbox {
+  display: inline-flex;
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+.footer .rbox p {
+  margin-right: 12px;
+}
